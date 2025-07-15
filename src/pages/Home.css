@@ -1,0 +1,15 @@
+.Home-cards {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: #f9f9f9;
+
+
+}
+
+.Home-card {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

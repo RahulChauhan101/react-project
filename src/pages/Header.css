@@ -1,0 +1,17 @@
+.Header{
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(220, 227, 227);
+}
+
+.Header_m ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.Header_m ul li{
+    font-size: 20px;
+}
