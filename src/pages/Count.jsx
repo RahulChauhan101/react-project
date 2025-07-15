@@ -9,7 +9,7 @@ const Count = () => {
   return (
     <div className='counter-card'> 
       <h1>Counter Page</h1>
-        <h1>Count is{count} </h1>
+        <h1>Count is {count} </h1>
         <button onClick={increment}>+</button>
         <button onClick={decrement}>-</button>
         </div>

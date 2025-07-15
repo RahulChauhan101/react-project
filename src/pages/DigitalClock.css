@@ -1,0 +1,22 @@
+.clock-container {
+  margin: 50px 10px;
+  width: 400px;
+  height: 340px;
+  /* padding: 20px; */
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+.clock-time {
+  font-size: 3rem;
+  font-weight: bold;
+  background: black;
+  color: limegreen;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
