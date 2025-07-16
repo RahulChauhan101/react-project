@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './DigitalClock.css';
+import Clock from 'react-clock';
+import 'react-clock/dist/Clock.css';
 
 const DigitalClock = () => {
   const [time, setTime] = useState(new Date());
@@ -9,15 +11,29 @@ const DigitalClock = () => {
       setTime(new Date());
     }, 1000);
 
-    return () => clearInterval(timer); // Cleanup
+    return () => clearInterval(timer);
   }, []);
+
+  const formattedDate_month = `${time.getDate().toString().padStart(2, '0')}/${(time.getMonth() + 1).toString().padStart(2, '0')}/${time.getFullYear()}`;
+   
+  const formattedDate = `${time.getDate().toString().padStart(2, '0')}`;
 
   return (
     <div className="clock-container">
-      <h1>Digital Clock</h1>
-      <div className="clock-time">
-        {time.toLocaleTimeString()}
+      <h1>Digital + Analog Clock</h1>
+
+         <div className="analog-clock">
+        <p>Analog:</p>
+        <span>{time.toLocaleTimeString()}</span>
+        <h5>{formattedDate}</h5>
+        <Clock value={time} />
       </div>
+
+      <div className="clock-time">{time.toLocaleTimeString()}</div>
+
+   
+
+      <div className="clock-date">{formattedDate_month}</div>
     </div>
   );
 };
