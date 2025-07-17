@@ -1,0 +1,70 @@
+.music-player {
+  background: #595858;
+  padding: 20px;
+  max-width: 400px;
+  color: whitesmoke;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.music-player h2{
+    font-size: 1rem;
+}
+
+.track-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 10px;
+  /* padding: 10px 20px; */
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  /* background: #007bff; */
+  color: orange;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #ce9811;
+  color: white;
+}
+
+.time-info {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.time-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.time-bar {
+  flex: 1;
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.time-bar-progress {
+  height: 8px;
+  background: #ce9811;
+  border-radius: 4px;
+  width: 10%;
+  height: 10%6;
+  transition: width 0.3s linear;
+}

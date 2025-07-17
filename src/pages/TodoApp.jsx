@@ -3,7 +3,7 @@ import TodoList_item from './TodoList_item';
 import './TodaApp.css';
 
 const TodoApp = () => {
-  const defaultList = ["asd", "asd"];
+  const defaultList = ["Apple 🍎", "Star 🌟", "Car 🚕", 'World 🌍'];
   const [task, setTask] = useState('');
   const [todos, setTodos] = useState([]);
 

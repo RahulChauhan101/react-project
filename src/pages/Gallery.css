@@ -1,0 +1,27 @@
+.gallery-container {
+  padding: 10px;
+  width: 350px;
+  height: 580px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+
+  overflow-y: auto; 
+}
+
+.gallery-image {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}

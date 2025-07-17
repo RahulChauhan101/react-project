@@ -1,7 +1,7 @@
 .clock-container {
   margin: 50px 10px;
   width: 400px;
-  height: 550px;
+  height: 340px;
   /* padding: 20px; */
   text-align: center;
   border: 2px solid #ddd;
@@ -9,9 +9,14 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #f9f9f9;
 }
+.Clock-date{
+  display: flex;
+  align-items: center;
+  
+}
 
 .clock-time {
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
   background: rgb(151, 174, 188);
   color: rgb(215, 222, 215);
@@ -24,6 +29,7 @@
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
   display: inline-block;
   padding: 15px;
   border-radius: 12px;
@@ -97,12 +103,14 @@ z-index: 1;
 
 
 .clock-date {
-  margin-top: 20px;
+
+  margin-top: 0px;
   font-size: 1rem;
   font-weight: bold;
   background: rgb(216, 203, 203);
   color: rgb(231, 137, 7);
   padding: 15px;
+  margin-top: 10px;
   border-radius: 12px;
   display: inline-block;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

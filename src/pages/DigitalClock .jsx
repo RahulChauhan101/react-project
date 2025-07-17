@@ -22,18 +22,18 @@ const DigitalClock = () => {
     <div className="clock-container">
       <h1>Digital + Analog Clock</h1>
 
-         <div className="analog-clock">
+<div className='Clock-date'>
+           <div className="analog-clock">
         <p>Analog:</p>
         <span>{time.toLocaleTimeString()}</span>
         <h5>{formattedDate}</h5>
         <Clock value={time} />
       </div>
 
-      <div className="clock-time">{time.toLocaleTimeString()}</div>
-
-   
-
+<div>      <div className="clock-time">{time.toLocaleTimeString()}</div>
       <div className="clock-date">{formattedDate_month}</div>
+      </div>
+</div>
     </div>
   );
 };
