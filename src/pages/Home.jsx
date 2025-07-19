@@ -7,6 +7,8 @@ import ColorPicker from './ColorPicker';
 import Gallery from './Gallery';
 import MusicPlayer from './MusicPlayer ';
 import MovieApp from './MovieApp';
+import Img from './Img';
+
 
 const Home = () => {
   return (
@@ -19,6 +21,9 @@ const Home = () => {
        <Gallery/>
        <MusicPlayer/>
        <MovieApp/>
+       <MovieApp/>
+       <MovieApp/>
+       <Img/>
       
       </div>
     </div>

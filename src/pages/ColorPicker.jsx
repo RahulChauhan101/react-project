@@ -53,9 +53,26 @@ const ColorPicker = () => {
         style={{ backgroundColor: color }}
       >
         <h5>HEX: {color}</h5>
+        {/* <h5>RGB: {hexToRgb(color)}</h5>
+        <h5>HSL: {hexToHsl(color)}</h5> */}
+      </div>
+            <div
+        className="color-display"
+        style={{ backgroundColor: color }}
+      >
+        {/* <h5>HEX: {color}</h5> */}
         <h5>RGB: {hexToRgb(color)}</h5>
+        {/* <h5>HSL: {hexToHsl(color)}</h5> */}
+      </div>
+            <div
+        className="color-display"
+        style={{ backgroundColor: color }}
+      >
+        {/* <h5>HEX: {color}</h5> */}
+        {/* <h5>RGB: {hexToRgb(color)}</h5> */}
         <h5>HSL: {hexToHsl(color)}</h5>
       </div>
+      
     </div>
   );
 };

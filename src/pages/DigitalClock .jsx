@@ -24,7 +24,7 @@ const DigitalClock = () => {
 
 <div className='Clock-date'>
            <div className="analog-clock">
-        <p>Analog:</p>
+        <p>React</p>
         <span>{time.toLocaleTimeString()}</span>
         <h5>{formattedDate}</h5>
         <Clock value={time} />
