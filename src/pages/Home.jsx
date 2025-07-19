@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="Home-cards">
       <div className="Home-card">
-        <Count />
+        <Count/>
        <TodoApp/>
        <DigitalClock/>
        <ColorPicker/>

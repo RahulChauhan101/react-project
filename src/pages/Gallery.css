@@ -25,3 +25,31 @@
 .gallery-image:hover {
   transform: scale(1.05);
 }
+
+
+.upload-section {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.upload-section input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.upload-section button {
+  padding: 8px 16px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-section button:hover {
+  background-color: #0071a8;
+}

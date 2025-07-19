@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Contect from "./pages/Contect";
 import Count from "./pages/Count";
 import Gallery from "./pages/Gallery";
+import MusicPlayer from "./pages/MusicPlayer ";
+import MovieApp from "./pages/MovieApp";
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
         <Route path="/contect" element={<Contect/>}/>
         <Route path="/count" element={<Count/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/music" element={<MusicPlayer/>}/>
+        <Route path="/movieapp" element={<MovieApp/>}/>
       </Routes>
     </div>
   )
